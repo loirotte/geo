@@ -16,8 +16,11 @@ class Point {
     }
     
     
+    // Constructeur complet
     Point(int a, int o)
     {
+	x = a;
+	y = b;
     }
     
     void translation(int dx, int dy)
