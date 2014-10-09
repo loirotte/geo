@@ -1,5 +1,6 @@
 class Point {
-    // Attributs
+
+    // Attributs de la classe point
     int x, y;
 
     // Constructeur par défaut
