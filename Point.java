@@ -19,12 +19,17 @@ class Point {
     
     
     // Constructeur complet
-    Point(int a, int o)
+    Point(int a, int b)
     {
 	x = a;
 	y = b;
     }
-    
+
+    /**
+     * Translater le point de dx et dy
+     * @param dx translation en x
+     * @param dy translation en y
+     */
     void translation(int dx, int dy)
     {
 	x += dx;
